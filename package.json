@@ -6,7 +6,8 @@
 		"preview": "vite preview",
 		"build": "vite build",
 		"lint": "eslint --max-warnings 0 --fix . && svelte-check",
-		"dev": "vite dev"
+		"dev": "vite dev",
+		"test": "npm i && npm run build"
 	},
 	"dependencies": {
 		"@sveltejs/kit": "^1.21.0",
